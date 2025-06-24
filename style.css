@@ -11,20 +11,44 @@ body {
     color: #F9FAF8;
 }
 
+.button,
+.image,
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+
 .logo {
     font-size: 24px;
 }
 
 ul,
-.subtext {
-    list-style-type: none;
+p {   
     font-size: 18px;
     color: #E5E7EB;
 }
 
-h1 {
+ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+li {
+    padding-left: 40px;
+}
+
+h1,
+h2 {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 h2,
@@ -32,24 +56,6 @@ h2,
     font-size: 36px;
     color: #1F2937;
 }
-
-h2 {
-    font-weight: 900;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-style: italic;
-}
-
-button,
-.action {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    font-size: 18px;
-}
-
-/*layout starts here*/
 
 .header,
 ul,
@@ -61,22 +67,14 @@ ul,
 }
 
 .header {
-    padding: 10px 400px;
+    padding: 10px 300px;
     justify-content: space-between;
     align-items: center;
 }
 
-ul {
-    margin: 10px 0;
-}
-
-li {
-    padding-left: 40px;
-}
-
 .hero {
-    padding: 100px 400px;
-    gap: 100px;
+    padding: 100px 300px;
+    gap: 200px;
 }
 
 .hero-text {
@@ -85,16 +83,69 @@ li {
     text-align: left;
 }
 
-h1 {
-    margin: 0;
-}
-
-button {
+.button {
     padding: 10px 40px;
-    border-radius: 10px;
 }
 
 .hero-button {
     margin-top: 20px;
+    border: 0;
+}
+
+.action-button {
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.info {
+    padding: 50px 350px 100px;
+
+}
+
+.list {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.image {
+    padding: 4px;
+}
+
+.text {
+    padding-top: 10px;
+    color: #1F2937;
+}
+
+.quote-text {
+    text-align: left;
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.action {
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    margin: 100px 300px;
+}
+
+.action-text {
+    text-align: left;
+    font-size: 25px;
+}
+
+h4,
+p {
+    margin: 0;
+}
+
+.footer {
+    padding: 40px 0;
 }
 
